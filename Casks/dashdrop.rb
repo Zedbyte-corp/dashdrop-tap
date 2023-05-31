@@ -1,8 +1,8 @@
 cask "dashdrop" do
   arch arm: "arm64", intel: "x64"
   version "0.0.1"
-  sha256 arm: "8af6239981607e20217a2ea6a3c43682d4266227fc40feacc99d8bd609591db1",
-         intel: "066cee6977067ee30706549fe8f08576574606a599f018c8ec9a542990467598"
+  sha256 arm: "c6c9e3d6331a4452e746e4365caf3f3f924143db3af6ed0e560f38e8b29b4cf4",
+         intel: "35641bef3ae3dc695778f6a3c5373a1752f2547d0bd31ed6dbad7c1aec395da3"
 
   url "https://dashdrop.s3.ap-south-1.amazonaws.com/dashdrop-#{version}-mac-#{arch}.dmg"
   name "Dashdrop"
